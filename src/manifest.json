@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "SimplifiedTrello",
+    "description": "Because Trello has too much buttons.",
+    "version": "1.0",
+    "icons": {
+        "200": "icon.png"
+    },
+    "host_permissions": [
+        "*://trello.com/*"
+    ],
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://trello.com/*"
+            ],
+            "css": [
+                "trello.css"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}

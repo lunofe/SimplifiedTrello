@@ -1,0 +1,134 @@
+/* BOARD OVERVIEW */
+    
+    /* TRELLO HEADER */
+    
+        /* hide atlassian app menu */
+        #header > div:nth-child(1),
+        /* hide workspaces, recent, starred, templates menues */
+        #header > div.\+RwX-aSCFrgl3M > div > div:nth-child(1),
+        /* hide create button */
+        #header > div.\+RwX-aSCFrgl3M > div > div.YVxoA9yoN2HeNo,
+        /* hide create button divider */
+        #header > div.\+RwX-aSCFrgl3M > div > div.o0fAE5UUPrsuSG,
+        /* hide help icon */
+        #header > div.e\+oPMlZ-fzJD3c > button.suETmwkWYk2Tcl.Ts\+YceGnvTbKoG.gGx-TWcD-qHGLA.d3VddHWjHgldJq.JIXQq8gDYY04N6
+        {
+            display: none !important;
+        }
+
+    /* BOARD HEADER */
+
+        /* hide board favorite button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > a,
+        /* hide board privacy button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.js-board-header-btn-org-wrapper.board-header-btn-org-wrapper,
+        /* hide board view changer divider */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > span,
+        /* hide board view changer */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.js-board-views-switcher,
+        /* hide watching button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > a.board-header-btn.sub-btn.js-board-header-subscribed,
+        /* hide map button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > a.board-header-btn.js-map-btn,
+        /* hide automation button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span:nth-child(5),
+        /* hide power-ups button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span.js-pup-dropdown-list-btn.board-header-btn-react-container,
+        /* hide power-ups button divider */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span:nth-child(9),
+        /* hide filter button divider */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span:nth-child(11),
+        /* hide board member icons and share button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > div,
+        /* hide share button divider */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span:nth-child(13)
+        {
+            display: none !important;
+        }
+
+    /* LEFT SIDEBAR */
+
+        /* hide sidebar */
+        #popover-boundary > div > div.js-react-root > nav
+        {
+            display: none;
+        }
+
+        /* correct padding on board header */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav
+        {
+            padding-left: 4px;
+        }
+        /* correct padding on board content */
+        #board
+        {
+            padding-left: 0px !important;
+        }
+
+    /* CARD LIST */
+
+        /* round corners on lists */
+        #board > div > div
+        {
+            border-radius: 10px !important;
+        }
+
+        /* add bigger box shadow to cards */
+        .list-card
+        {
+            box-shadow: 0 5px 5px #091e4240 !important;
+        }
+
+        /* round corners on cards */
+        .list-card,
+        /* cover images */
+        div.list-card-cover.js-card-cover.is-covered
+        {
+            border-radius: 10px !important;
+        }
+
+/* CARD VIEW */
+
+    /* GENERAL */
+
+        /* round corners */
+        #chrome-container > div.window-overlay > div,
+        /* cover image */
+        #chrome-container > div.window-overlay > div > div > div > div.window-cover.js-card-cover-box.js-stickers-area.js-open-card-cover-in-viewer.card-cover-dark.is-covered.has-attachment-cover
+        {
+            border-radius: 20px !important;
+        }
+
+        /* add blur to the background of card view */
+        #chrome-container > div.window-overlay,
+        /* add blur to the background of card attachment view */
+        #chrome-container > div.attachment-viewer
+        {
+            backdrop-filter: blur(5px);
+        }
+
+    /* CONTENT */
+
+        /* hide dropdown, customfields, dates upgrade prompt */
+        .card-back-card-back-upgrade-prompt-section
+        {
+            display: none !important;
+        }
+
+    /* ATTACHMENTS */
+
+        /* add black background behind card attachment */
+        #chrome-container > div.attachment-viewer > div.attachment-viewer-frames.js-frames,
+        /* left peek */
+        #chrome-container > div.attachment-viewer > div.attachment-viewer-frames.js-frames > div.attachment-viewer-frame.js-close-viewer.attachment-viewer-frame-left.attachment-viewer-frame-loaded,
+        /* right peek */
+        #chrome-container > div.attachment-viewer > div.attachment-viewer-frames.js-frames > div.attachment-viewer-frame.js-close-viewer.attachment-viewer-frame-right.attachment-viewer-frame-loaded
+        {
+            background-color: #000000;
+        }
+
+        /* add highlight box shadow to card attachment */
+        #chrome-container > div.attachment-viewer > div.attachment-viewer-frames.js-frames > div.attachment-viewer-frame.js-close-viewer.attachment-viewer-frame-center.attachment-viewer-frame-loaded > div > div > img
+        {
+            box-shadow: 0px 0px 20px #303030;
+        }
