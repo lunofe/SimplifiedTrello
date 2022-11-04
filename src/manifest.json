@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "SimplifiedTrello",
     "description": "Because Trello has too much buttons.",
-    "version": "1.0",
+    "version": "1.1",
     "icons": {
         "200": "icon.png"
     },

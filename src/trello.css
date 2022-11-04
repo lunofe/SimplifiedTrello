@@ -87,6 +87,25 @@
             border-radius: 10px !important;
         }
 
+        /* hide custom field preview */
+        div.list-card-details.js-card-details > div.badges > span.custom-field-front-badges.js-custom-field-badges
+        {
+            display: none !important;
+        }
+
+        /* less obtrusive card badges */
+        div.list-card-details.js-card-details > div.badges
+        {
+            opacity: 0.7;
+        }
+
+        /* hide card template edit button */
+        body > div.atlaskit-portal-container > div > section > div > button,
+        body > div.atlaskit-portal-container > div > section > div > div > a
+        {
+            display: none !important;
+        }
+
 /* CARD VIEW */
 
     /* GENERAL */
@@ -109,8 +128,44 @@
 
     /* CONTENT */
 
+        /* hide suggested actions */
+        div.window-module.suggested-actions-module.js-suggested-actions
+        {
+            display: none !important;
+        }
+
+        /* hide custom fields button */
+        div.js-custom-fields.button-link
+        {
+            display: none !important;
+        }
+
         /* hide dropdown, customfields, dates upgrade prompt */
         .card-back-card-back-upgrade-prompt-section
+        {
+            display: none !important;
+        }
+
+        /* hide power ups */
+        #chrome-container > div.window-overlay > div > div > div > div.window-sidebar > div.js-plugin-buttons
+        {
+            display: none !important;
+        }
+
+        /* hide automation quick edit */
+        #chrome-container > div.window-overlay > div > div > div > div.window-sidebar > div.js-butler-card-buttons > div > div > div.DFwrp1Zsl4rTLY > button
+        {
+            display: none !important;
+        }
+
+        /* hide automation add button */
+        #chrome-container > div.window-overlay > div > div > div > div.window-sidebar > div.js-butler-card-buttons > div > div > div.u-clearfix > div > a.button-link.add-button-link
+        {
+            display: none !important;
+        }
+
+        /* hide make template button */
+        #chrome-container > div.window-overlay > div > div > div > div.window-sidebar > div > div > a.button-link.js-convert-to-template
         {
             display: none !important;
         }
@@ -131,4 +186,10 @@
         #chrome-container > div.attachment-viewer > div.attachment-viewer-frames.js-frames > div.attachment-viewer-frame.js-close-viewer.attachment-viewer-frame-center.attachment-viewer-frame-loaded > div > div > img
         {
             box-shadow: 0px 0px 20px #303030;
+        }
+
+        /* limit maximum height of card attachment */
+        #chrome-container > div.attachment-viewer > div.attachment-viewer-frames.js-frames > div.attachment-viewer-frame.js-close-viewer.attachment-viewer-frame-center.attachment-viewer-frame-loaded > div > div > img
+        {
+            max-height: 80vh;
         }
