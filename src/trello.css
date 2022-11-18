@@ -22,26 +22,24 @@
         #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > a,
         /* hide board privacy button */
         #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.js-board-header-btn-org-wrapper.board-header-btn-org-wrapper,
-        /* hide board view changer divider */
+        /* hide divider */
         #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > span,
-        /* hide board view changer */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.js-board-views-switcher,
-        /* hide watching button */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > a.board-header-btn.sub-btn.js-board-header-subscribed,
-        /* hide map button */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > a.board-header-btn.js-map-btn,
-        /* hide automation button */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span:nth-child(5),
-        /* hide power-ups button */
+        /* hide board, table, calendar, dashboard, timeline, map view button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.js-board-views-switcher > div > div > div > a.pp7y3tx4w7nHcW,
+        /* hide view selector drag handles */
+        body > div.atlaskit-portal-container > div > section > div > ul > div > li > div > div._2FYzi4P2Yhjq8U,
+        /* hide view selector tick boxes */
+        body > div.atlaskit-portal-container > div > section > div > ul > div > li > div > div > label.WKVty9mB7W4FCO,
+        /* hide view selector feedback link */
+        body > div.atlaskit-portal-container > div > section > div > a.tjdwAQTTKy6OFE,
+        /* hide powerups button */
         #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span.js-pup-dropdown-list-btn.board-header-btn-react-container,
-        /* hide power-ups button divider */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span:nth-child(9),
-        /* hide filter button divider */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span:nth-child(11),
-        /* hide board member icons and share button */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > div,
-        /* hide share button divider */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span:nth-child(13)
+        /* hide automation button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span.js-butler-header-btns.board-header-btn-react-container,
+        /* hide dividers */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span.board-header-btn-divider,
+        /* hide share button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > div > span.board-share-button
         {
             display: none !important;
         }
