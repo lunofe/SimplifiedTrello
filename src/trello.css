@@ -10,6 +10,7 @@
         #header > div.\+RwX-aSCFrgl3M > div > div.YVxoA9yoN2HeNo,
         /* hide create button divider */
         #header > div.\+RwX-aSCFrgl3M > div > div.o0fAE5UUPrsuSG,
+
         /* hide help icon */
         #header > div.e\+oPMlZ-fzJD3c > button.suETmwkWYk2Tcl.Ts\+YceGnvTbKoG.gGx-TWcD-qHGLA.d3VddHWjHgldJq.JIXQq8gDYY04N6
         {
@@ -32,6 +33,7 @@
         body > div.atlaskit-portal-container > div > section > div > ul > div > li > div > div > label.WKVty9mB7W4FCO,
         /* hide view selector feedback link */
         body > div.atlaskit-portal-container > div > section > div > a.tjdwAQTTKy6OFE,
+        
         /* hide powerups button */
         #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span.js-pup-dropdown-list-btn.board-header-btn-react-container,
         /* hide automation button */
