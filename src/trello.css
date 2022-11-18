@@ -20,28 +20,28 @@
     /* BOARD HEADER */
 
         /* hide board favorite button */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > a,
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header > a,
         /* hide board privacy button */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.js-board-header-btn-org-wrapper.board-header-btn-org-wrapper,
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header > div.js-board-header-btn-org-wrapper.board-header-btn-org-wrapper,
         /* hide divider */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > span,
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header > span,
         /* hide board, table, calendar, dashboard, timeline, map view button */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.js-board-views-switcher > div > div > div > a.pp7y3tx4w7nHcW,
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header > div.js-board-views-switcher > div > div > div > a.pp7y3tx4w7nHcW,
         /* hide view selector drag handles */
         body > div.atlaskit-portal-container > div > section > div > ul > div > li > div > div._2FYzi4P2Yhjq8U,
         /* hide view selector tick boxes */
         body > div.atlaskit-portal-container > div > section > div > ul > div > li > div > div > label.WKVty9mB7W4FCO,
         /* hide view selector feedback link */
         body > div.atlaskit-portal-container > div > section > div > a.tjdwAQTTKy6OFE,
-        
+
         /* hide powerups button */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span.js-pup-dropdown-list-btn.board-header-btn-react-container,
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header > div.board-header-btns.mod-right > span.js-pup-dropdown-list-btn.board-header-btn-react-container,
         /* hide automation button */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span.js-butler-header-btns.board-header-btn-react-container,
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header > div.board-header-btns.mod-right > span.js-butler-header-btns.board-header-btn-react-container,
         /* hide dividers */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > span.board-header-btn-divider,
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header > div.board-header-btns.mod-right > span.board-header-btn-divider,
         /* hide share button */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav > div.board-header-btns.mod-right > div > span.board-share-button
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header > div.board-header-btns.mod-right > div > span.board-share-button
         {
             display: none !important;
         }
@@ -55,11 +55,12 @@
         }
 
         /* correct padding on board header */
-        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header.collapsed-workspace-nav
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header
         {
             padding-left: 4px;
         }
         /* correct padding on board content */
+        #content-wrapper,
         #board
         {
             padding-left: 0px !important;
