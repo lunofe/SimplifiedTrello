@@ -100,8 +100,8 @@
         }
 
         /* hide card template edit button */
-        body > div.atlaskit-portal-container > div > section > div > button,
-        body > div.atlaskit-portal-container > div > section > div > div > a
+        body > div.atlaskit-portal-container > div > section > div > button.QWNKUCUk6H8uJS,
+        body > div.atlaskit-portal-container > div > section > div > div > a > button.jkS19Kht0H-Frc
         {
             display: none !important;
         }
