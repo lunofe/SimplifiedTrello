@@ -12,14 +12,14 @@ SimplifiedTrello is a Chromium extension that removes a lot of buttons and other
 
 | Before | After |
 | --- | --- |
-| ![img](https://raw.githubusercontent.com/1LiterZinalco/SimplifiedTrello/main/media/board_before.jpg) | ![img](https://raw.githubusercontent.com/1LiterZinalco/SimplifiedTrello/main/media/board_after.jpg) |
-| ![img](https://raw.githubusercontent.com/1LiterZinalco/SimplifiedTrello/main/media/card_before.jpg) | ![img](https://raw.githubusercontent.com/1LiterZinalco/SimplifiedTrello/main/media/card_after.jpg) |
+| ![img](https://raw.githubusercontent.com/lunofe/SimplifiedTrello/main/media/board_before.jpg) | ![img](https://raw.githubusercontent.com/lunofe/SimplifiedTrello/main/media/board_after.jpg) |
+| ![img](https://raw.githubusercontent.com/lunofe/SimplifiedTrello/main/media/card_before.jpg) | ![img](https://raw.githubusercontent.com/lunofe/SimplifiedTrello/main/media/card_after.jpg) |
 
 <br>
 
 ## Licensing
 
-The SimplifiedTrello logo ([`src/icon.png`](https://github.com/1LiterZinalco/SimplifiedTrello/blob/main/src/icon.png)) is an icon called "*[Trello a web-based list-making application for multi platform](https://icons8.com/icon/iPEFYQOZhiWv/trello-a-web-based-list-making-application-for-multi-platform)*" by [Icons8 ❤️](https://icons8.com) and is subject to the [Universal Multimedia Licensing Agreement for Icons8](https://intercom.help/icons8-7fb7577e8170/en/articles/5534926-universal-multimedia-licensing-agreement-for-icons8)
+The SimplifiedTrello logo ([`src/icon.png`](https://github.com/lunofe/SimplifiedTrello/blob/main/src/icon.png)) is an icon called "*[Trello a web-based list-making application for multi platform](https://icons8.com/icon/iPEFYQOZhiWv/trello-a-web-based-list-making-application-for-multi-platform)*" by [Icons8 ❤️](https://icons8.com) and is subject to the [Universal Multimedia Licensing Agreement for Icons8](https://intercom.help/icons8-7fb7577e8170/en/articles/5534926-universal-multimedia-licensing-agreement-for-icons8)
 
 Everything else contained in this repository is licensed under the GNU General Public License v3.0:
 
