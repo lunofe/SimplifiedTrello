@@ -46,6 +46,12 @@
             display: none !important;
         }
 
+        /* round corners of view selector button */
+        #content > div > div.board-main-content > div.board-header.u-clearfix.js-board-header > div.js-board-views-switcher > div > div > div > button
+        {
+            border-radius: 10px;
+        }
+
     /* LEFT SIDEBAR */
 
         /* hide sidebar */
@@ -71,7 +77,19 @@
         /* round corners on lists */
         #board > div > div
         {
-            border-radius: 10px !important;
+            border-radius: 15px !important;
+        }
+
+        /* round corners of list options button */
+        #board > div > div > div.list-header.js-list-header.u-clearfix.is-menu-shown.ui-sortable-handle > div.list-header-extras > a
+        {
+            border-radius: 12px;
+        }
+
+        /* hide card edit button */
+        #board > div > div > div.list-cards.u-fancy-scrollbar.u-clearfix.js-list-cards.js-sortable.ui-sortable > a > span
+        {
+            display: none !important;
         }
 
         /* add bigger box shadow to cards */
@@ -117,6 +135,12 @@
         #chrome-container > div.window-overlay > div > div > div > div.window-cover.js-card-cover-box.js-stickers-area.js-open-card-cover-in-viewer.card-cover-dark.is-covered.has-attachment-cover
         {
             border-radius: 20px !important;
+        }
+
+        /* remove reduntant background color to allow for rounded corners */
+        #chrome-container > div.window-overlay > div > div
+        {
+            background: transparent;
         }
 
         /* add blur to the background of card view */
