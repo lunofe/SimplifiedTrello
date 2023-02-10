@@ -4,15 +4,11 @@
     
         /* hide atlassian app menu */
         #header > div:nth-child(1),
-        /* hide workspaces, recent, starred, templates menues */
-        #header > div.\+RwX-aSCFrgl3M > div > div:nth-child(1),
-        /* hide create button */
-        #header > div.\+RwX-aSCFrgl3M > div > div.YVxoA9yoN2HeNo,
-        /* hide create button divider */
-        #header > div.\+RwX-aSCFrgl3M > div > div.o0fAE5UUPrsuSG,
-
+        /* hide workspaces, recent, starred, templates menues, create button */
+        #header > div.Jq8R8MZFmi7RPq,
+        
         /* hide help icon */
-        #header > div.e\+oPMlZ-fzJD3c > button.suETmwkWYk2Tcl.Ts\+YceGnvTbKoG.gGx-TWcD-qHGLA.d3VddHWjHgldJq.JIXQq8gDYY04N6
+        #header > div.hQdzCqwE1c7MY1 > div > button.Ox5dOT7lU3Hn8B.bxgKMAm3lq5BpA.HAVwIqCeMHpVKh.SEj5vUdI3VvxDc
         {
             display: none !important;
         }
